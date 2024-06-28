@@ -1,0 +1,111 @@
+@media (max-width: 600px) {
+    .main-nav{
+        padding: 8vw;
+        flex-direction: column;
+        gap: 6vw;
+    }
+    
+    .nav-logo{
+        gap: 2vw;
+        color: #fff;
+    }
+    
+    .nav-logo .logo-icon{
+        font-size: 6vw;
+    }
+    
+    .nav-logo .logo-heading{
+        font-size: 5vw;
+    }
+    
+    .nav-links{
+        display: none;
+    }
+    
+    .nav-search{
+        display: flex;
+        gap: 1vw;
+    }
+    
+    .nav-search .search-input{
+        border: none;
+        height: 12vw;
+        width: 70vw;
+        padding: 0 5vw;
+        font-size: 4vw;
+    }
+    
+    .nav-search .search-input::placeholder{
+        font-size: 4vw;
+    }
+    
+    .nav-search .search-btn{
+        font-size: 4vw;
+        padding: 0 2vw;
+        width: 25vw;
+    }
+    
+    .main{
+        margin-top: 40vw;
+    }
+
+    h2.news-category-heading{
+        font-size: 8vw;
+        padding-left: 8vw;
+        margin-bottom: 5vw;
+    }
+    
+    h2.news-category-heading::before{
+        font-size: 12vw;
+        left: 4%;
+        top: -40%;
+    }
+    
+    .news-cards-container{
+        padding: 2vw;
+        gap: 4vw;
+    }
+    
+    .news-card{
+        position: relative;
+        width: 80vw;
+        height: 70vw;
+        border-radius: 2vw;
+    }
+    
+    .news-card .overlay-content{
+        padding: 2vw;
+    }
+    
+    .news-card .overlay-content .news-channel{
+        font-size: 4vw;
+    }
+    
+    .news-card .overlay-content .news-channel::before{
+        height: 2vw;
+        width: 2vw;
+    }
+    
+    .news-card .overlay-content .bottom{
+        padding: 10vw 2vw;
+        height: fit-content;
+    }
+    
+    .news-card .overlay-content .bottom .news-title{
+        color: #fff;
+        font-size: 3.5vw;
+    }
+
+    .news-card .overlay-content .bottom .published-date{
+        font-size: 4vw;
+        margin-top: 2vw;
+    }
+    
+    .news-card .overlay-content .news-content{
+        padding: 4vw;
+    }
+    
+    .news-card .overlay-content .news-content p{
+        font-size: 5vw;
+    }
+}
