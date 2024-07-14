@@ -4,7 +4,7 @@
 <br />
 <div align="center">
   <a href="https://github.com/anuragbansall/NewsNexus">
-    <img src="./assets/news-icon.svg" alt="Logo" width="80" height="80">
+    <img src="./assets/newspaper-regular.svg" alt="Logo" width="80" height="80">
   </a>
 
 <h3 align="center">News Nexus</h3>
@@ -14,7 +14,6 @@
     <br />
     <br />
     <br />
-    <a href="https://github.com/anuragbansall/NewsNexus">View Demo</a>
   </p>
 </div>
 
@@ -31,10 +30,10 @@
 
 ### Built With
 
-* HTML
-* CSS
-* JavaScript
-* API
+* `HTML`
+* `CSS`
+* `JavaScript`
+* `API`
 
 
 <!-- CONTACT -->
