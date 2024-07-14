@@ -201,7 +201,7 @@ h2.news-category-heading::before{
     /* max-height: 8vw; */
     display: -webkit-box;
     -webkit-box-orient: vertical;
-    -webkit-line-clamp: 3;
+    /* -webkit-line-clamp: 3; */
     overflow: hidden;
     text-overflow: ellipsis;
     max-height: 10em;
